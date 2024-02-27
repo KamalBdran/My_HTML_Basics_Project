@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> my form </title>
+</head>
+<body>
+    
+<form action="action_page.php" method="post">
+
+
+<div>
+    <label for="fname"> first name : </label>
+    <input type="text" id="fname" name="fname" placeholder="Kamal" required>
+</div>
+
+
+<br>
+
+<div>
+    <label for="lname"> last name : </label>
+    <input type="text" id="lname" name="lname" placeholder="Bdran" required>
+</div>
+
+<br>
+
+<div>
+    <label for="pass"> password : </label>
+    <input type="password" id="pass" name="pass"  maxlength="12" required>
+</div>
+
+<br>
+
+<div>
+
+    <label for="email"> email : </label>
+    <input type="email" id="email" name="email" placeholder="kamalbdran@gmail.com" required>
+
+</div>
+
+<br>
+
+<div>
+
+    <label for="phone"> phone : </label>
+    <input type="tel" id="phone" name="phone" maxlength="12"  placeholder="(123)-222-221">
+
+</div>
+
+<br>
+
+<div>
+    <label for="birthdate"> birthdate : </label>
+    <input type="date" id="bdate" name="bdate" placeholder="bdate">
+
+</div>
+
+ <br>
+
+ <div>
+    <label for="old"> old : </label>
+    <input type="number" id="old" name="old"  min="1" max="99" value="18">
+    
+</div>
+
+<br>
+
+<div>
+<label for="title"> Your level : </label>
+<label for="Bc.">Bc.</label>
+<input type="radio" id="Bc." name="title" value="Bc.">
+
+<label for="Mr.">Mr.</label>
+<input type="radio" id="Mr." name="title" value="Mr.">
+
+<label for="Phd.">Phd.</label>
+<input type="radio" id="Phd." name="title" value="Phd.">
+
+</div>
+
+<br>
+
+<div>
+<label for="payment"> payment : </label>
+<select id="payment" name="payment">
+
+<option value="visa">visa</option>
+<option value="mastercard">mastercard</option>
+<option value="giftcard">giftcard</option>
+<option value="cash">cash</option>
+
+</select>
+
+</div>
+
+<br>
+
+<div>
+    <input type="submit" >
+</div>
+
+<br>
+
+<div>
+    <input type="reset" >
+</div>
+
+
+</form>
+
+</body>
+</html>
