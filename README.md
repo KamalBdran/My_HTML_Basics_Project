@@ -19,4 +19,5 @@ Buttons
 Comments
 and Validation
 
-Note : please install Live Server extension to see my website live!
+Note : please install Live Server extension to see my website live
+thank you for reading ^_^
